@@ -1,0 +1,9 @@
+@helper.form(action = routes.ClotheController.uploadAndAddClothes, Symbol("enctype") -> "multipart/form-data") {
+
+    <input type="file" name="clothes">
+
+    <p>
+        <input type="submit">
+    </p>
+
+}
